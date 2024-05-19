@@ -31,7 +31,6 @@ git clone https://github.com/Sompote/SPT_Bangkok_SAND
 
 ## Demo
 
-Insert gif or link to the demo
 ```
 N =15
 
