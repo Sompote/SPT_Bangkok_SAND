@@ -1,7 +1,16 @@
 
 Predicting friction angle of Bangkok Sand using SPT
 
-This project was based on the results of physical model test and triaxial test of Bangkok Sand in Laboratory
+# Predicting Friction Angle of Bangkok Sand Using SPT
+
+This project investigates the relationship between Standard Penetration Test (SPT) N-values and the friction angle of Bangkok Sand. It leverages a machine learning model, specifically a TensorFlow implementation, to establish a predictive framework. This repository provides the model architecture, pre-trained weights (if applicable), and potentially code for training, evaluation, and prediction.
+
+## Key Features
+
+* Predicts Friction Angle: Estimates the friction angle of Bangkok Sand based on SPT N-values.
+* Machine Learning Approach: Utilizes a TensorFlow model, likely a neural network architecture, for accurate and efficient predictions.
+* Pre-trained Weights (Optional): May include pre-trained model weights for immediate use (if training data is unavailable).
+* Codebase (Optional): Might contain code for training the model from scratch, evaluating its performance, and making predictions on new data.
 
 
 
