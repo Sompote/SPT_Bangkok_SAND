@@ -35,6 +35,7 @@ git clone https://github.com/Sompote/SPT_Bangkok_SAND
 N =15
 
 stress=363 #kPa
+print('friction angle =',SPT_fee(stress=stress,N=N), 'degree')
 ```
 ```
 1/1 [==============================] - 0s 148ms/step
