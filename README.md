@@ -30,6 +30,25 @@ git clone https://github.com/Sompote/SPT_Bangkok_SAND
 
 
 ## Demo
+```
+
+import pickle
+import numpy as np
+import keras
+def SPT_fee(stress=100, N=3):
+  model1 = keras.models.load_model('model.h5')
+  scaler_x = pickle.load(open('scaler.pkl', 'rb'))
+  scaler_y = pickle.load(open('scaler_y.pkl', 'rb'))
+  x = np.array([stress,N])
+  x=np.reshape(x,(1,2))
+  x_scale=scaler_x.transform(x)
+  y_scale=model1.predict(x_scale)
+  y_scale=np.reshape(y_scale,(1,1))
+  y=scaler_y.inverse_transform(y_scale) #state parameter
+  #calculate for friction angle
+  fee=34.821-27.512*y
+  return fee[0,0]
+```
 
 ```
 N =15
