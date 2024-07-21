@@ -25,6 +25,9 @@ To deploy this project run
 ```
 git clone https://github.com/Sompote/SPT_Bangkok_SAND
 ```
+
+## Web App
+
 Hugginface space: https://huggingface.co/spaces/neng123/Bangkok_Sand
 <img width="1498" alt="Screenshot 2567-07-21 at 16 46 28" src="https://github.com/user-attachments/assets/e865c02b-4e6c-453c-938c-7a63eaab94bd">
 
